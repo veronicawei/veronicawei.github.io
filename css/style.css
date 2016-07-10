@@ -1,0 +1,141 @@
+/*Setting affix*/
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.affix + .container {
+    position: relative;
+    top: 50;
+}
+
+.container p {
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+}
+
+.container ul {
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 30px;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 20px;
+}
+
+
+/*Layout*/
+
+
+/*.jumbotron {
+    background: #9900cc;
+    /* For browsers that do not support gradients */
+
+background: -webkit-linear-gradient(to left top, #9900cc, #ffcccc);
+
+/* For Safari 5.1 to 6.0 */
+
+background: -o-linear-gradient(to bottom right, #9900cc, #ffcccc);
+
+/* For Opera 11.1 to 12.0 */
+
+background: -moz-linear-gradient(to bottom right, #9900cc, #ffcccc);
+
+/* For Firefox 3.6 to 15 */
+
+background: linear-gradient(to bottom right, #9900cc, #ffcccc);
+
+/* Standard syntax */
+
+height: 730px;
+
+/*.icon i {
+    font-size: 70px;
+    color: #999;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: #fff;
+}
+*/
+
+header {
+    margin: 100px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.icon {
+    margin: 0 auto;
+    width: 100px;
+    /*    margin-top: 15%;*/
+    /*    border: 2px solid #eee;*/
+    border-radius: 50%;
+}
+
+.row img {
+    width: 80%;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 10%;
+}
+
+[id^='section'] {
+    padding-top: 50px;
+    border-radius: 10px;
+}
+
+#section1 {
+    background-color: #fff;
+}
+
+#section2 {
+    background-color: #FFE4E1;
+}
+
+#section3 {
+    background-color: #DDA0DD;
+}
+
+#section4 {
+    background-color: #FFE4B5;
+}
+
+footer {
+    padding: 50px 50px;
+    background-color: #BBFFEE;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.top {
+    display: none;
+    position: fixed;
+    bottom: 350px;
+    right: 30px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #ddd;
+}
+
+.top 1 {
+    font-size: 36px;
+    color: #fff;
+}
